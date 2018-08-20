@@ -17,7 +17,7 @@ export class IngredientesPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+l
   ionViewDidLoad() {
     console.log('ionViewDidLoad IngredientesPage');
   }

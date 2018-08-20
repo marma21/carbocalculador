@@ -11,6 +11,15 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+export const firebaseConfig = {
+  apiKey: "AIzaSyC8NfBdTwacUYimEV6ek8_uzUzjY5ElpX4",
+  authDomain: "carbocalculador.firebaseapp.com",
+  databaseURL: "https://carbocalculador.firebaseio.com",
+  projectId: "carbocalculador",
+  storageBucket: "carbocalculador.appspot.com",
+  messagingSenderId: "918347525976"
+};
+
 @NgModule({
   declarations: [
     MyApp,
@@ -35,6 +44,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
-  ]
+  ],
 })
 export class AppModule {}
